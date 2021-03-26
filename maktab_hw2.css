@@ -1,0 +1,15 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./font/WorkSans-VariableFont_wght.ttf");
+  }
+
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: myFirstFont;
+}
+*{
+    box-sizing: border-box;
+}
