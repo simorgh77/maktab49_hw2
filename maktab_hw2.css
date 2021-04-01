@@ -28,8 +28,8 @@ body,html{
 }
 .content{
 
-    width: 30%;
-    height: 45%;
+    width: 440px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -63,6 +63,7 @@ h1{
     border-top: none;
     border-bottom: grey 1px solid;  
     width: 60%;
+    outline: none;
 }
 .Login{
 background-color: green;
@@ -96,5 +97,6 @@ input[type=button]{
     margin-left: 80px;
     border:none;
     outline: none;
+    cursor: pointer;
     
 }
